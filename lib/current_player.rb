@@ -4,4 +4,5 @@ board.each do |index|
   if index !=" "
   counter += 1
   end
-endend
+end
+end
