@@ -8,7 +8,6 @@ loop do
 
 #def turn_count(index)
   counter += 1
-else
   break
 #end
 end
