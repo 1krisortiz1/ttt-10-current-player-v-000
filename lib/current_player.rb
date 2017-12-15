@@ -1,7 +1,8 @@
 index = ["X","O","X","O","X","O","X","O","X"]
 counter = 0
 def turn_count(board)
-  board.each do |next|
+  board.each do |index
+    |
   if next == "X" || next == "O"
   counter += 1
 end
