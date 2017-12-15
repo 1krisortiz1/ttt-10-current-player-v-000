@@ -1,10 +1,11 @@
 index = ["X","O","X","O","X","O","X","O","X"]
 def turn_count(index)
-  counter = 0
+  #counter = 0
 index.each do |index|
-  counter += 1
+  #counter += 1
+  puts "it's your turn #{index}"
 end
-counter == 9
+  #counter == 9
 end
 
 def current_player(board)
