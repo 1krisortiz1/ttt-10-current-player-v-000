@@ -1,4 +1,4 @@
-index = ["X,","O","X,","O","X,","O","X,","O","X"]
+index = ["X","O","X","O","X","O","X","O","X"]
 def turn_count(index)
   counter = 0
 index.each do |index|
