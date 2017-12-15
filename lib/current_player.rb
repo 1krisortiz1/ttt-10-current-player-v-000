@@ -1,8 +1,8 @@
-player = ("turn X","turn O","turn X","turn O","turn X","turn O","turn X","turn O"."turn X")
-def turn_count(turn)
-player.each do |turn|
+def turn_count(board)
+  counter = 0
+board.each do |index|
   puts "It's your #{turn}"
-counter = 0
+
    if 4 % 2
       counter =+ 1
    end
