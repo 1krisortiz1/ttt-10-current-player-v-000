@@ -4,7 +4,7 @@ def turn_count(index)
 index.each do |index|
   counter += 1
 end
-counter
+counter == 9
 end
 
 def current_player(board)
