@@ -6,9 +6,9 @@ counter = 0
    if condition
       counter =+ 1
    end
-  
+
 end
 
 def current_player
-  
+
 end
