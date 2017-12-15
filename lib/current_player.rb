@@ -3,4 +3,5 @@ def turn_count(board)
 board.each do |index|
   counter += 1
 end
+counter
 end
