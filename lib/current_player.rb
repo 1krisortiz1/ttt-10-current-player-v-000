@@ -13,7 +13,7 @@ def current_player(board)
     return "X"
   else
     return "O"
-    return "X"
+    return current_player == "X"
   end
 
 end
