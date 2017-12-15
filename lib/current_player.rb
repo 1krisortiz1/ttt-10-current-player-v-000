@@ -9,6 +9,6 @@ counter = 0
 
 end
 
-def current_player
+#def current_player
 
-end
+3end
