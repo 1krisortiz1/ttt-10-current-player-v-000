@@ -1,4 +1,4 @@
-player = ["turn X","turn O","turn X","turn O","turn X","turn O","turn X","turn O"."turn X"]
+player = ("turn X","turn O","turn X","turn O","turn X","turn O","turn X","turn O"."turn X")
 def turn_count(turn)
 player.each do |turn|
   puts "It's your #{turn}"
