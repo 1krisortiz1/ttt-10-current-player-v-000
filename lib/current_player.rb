@@ -2,10 +2,10 @@ index = ["X","O","X","O","X","O","X","O","X"]
 players_turn=index.count
 counter = 0
 
-loop do 
+loop do
   if counter<players_turn
   puts "it's your turn #{index[counter]}"
-    
+
 def turn_count(index)
   counter += 1
 else
