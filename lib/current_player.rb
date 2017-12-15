@@ -6,11 +6,11 @@ loop do
   if counter<players_turn
   puts "it's your turn #{index[counter]}"
 
-def turn_count(index)
+#def turn_count(index)
   counter += 1
 else
   break
-end
+#end
 end
 end
 def current_player(board)
